@@ -2,6 +2,8 @@ package com.hmdp;
 
 import com.hmdp.entity.Shop;
 import com.hmdp.service.impl.ShopServiceImpl;
+import com.hmdp.utils.RedisUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -11,6 +13,7 @@ import static com.hmdp.utils.RedisConstants.CACHE_SHOP_KEY;
 import static com.hmdp.utils.RedisConstants.LOCK_SHOP_TTL;
 
 @SpringBootTest
+@Slf4j
 class HmDianPingApplicationTests {
 
     @Resource
@@ -22,4 +25,5 @@ class HmDianPingApplicationTests {
         Shop shop = shopService.getById(1);
         shopService.saveShopToRedis(key, shop, LOCK_SHOP_TTL);
     }
+
 }

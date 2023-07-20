@@ -72,6 +72,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         }
         // 5. 保存用户信息到session
         session.setAttribute(USER_SESSION, user);
+        session.setMaxInactiveInterval(60 * 60 * 24 * 7);
         return Result.ok(user);
     }
 

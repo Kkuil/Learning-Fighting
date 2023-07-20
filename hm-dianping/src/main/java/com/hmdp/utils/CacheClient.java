@@ -4,7 +4,6 @@ import cn.hutool.core.util.BooleanUtil;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
-import com.hmdp.entity.Shop;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
@@ -15,7 +14,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
 import static com.hmdp.utils.RedisConstants.*;
-import static com.hmdp.utils.RedisConstants.LOCK_SHOP_KEY;
 
 @Component
 public class CacheClient {
@@ -161,8 +159,7 @@ public class CacheClient {
     }
 
     // 释放对象
-    public Boolean unlock(String key) {
-        Boolean flag = stringRedisTemplate.delete(key);
-        return BooleanUtil.isTrue(flag);
+    public void unlock(String key) {
+        stringRedisTemplate.delete(key);
     }
 }
