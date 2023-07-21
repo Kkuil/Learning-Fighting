@@ -8,7 +8,9 @@ import org.springframework.data.redis.core.script.DefaultRedisScript;
 import org.springframework.data.redis.core.script.RedisScript;
 
 import java.util.Collections;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
+
 
 public class LockServiceImpl implements ILockService {
 
@@ -19,7 +21,7 @@ public class LockServiceImpl implements ILockService {
     // 锁名称前缀
     private static final String LOCK_PREFIX = "lock:";
     // 锁值前缀
-    private static final String LOCK_VALUE_PREFIX = UUID.randomUUID().toString(true);
+    private static final String LOCK_VALUE_PREFIX = UUID.randomUUID().toString(true) + "-";
 
     private static DefaultRedisScript REDIS_SCRIPT;
 
