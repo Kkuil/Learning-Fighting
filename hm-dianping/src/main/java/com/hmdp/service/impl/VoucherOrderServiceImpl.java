@@ -27,10 +27,7 @@ import java.time.Duration;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 /**
  * <p>
@@ -155,7 +152,7 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
     }
 
     // 3. 订单处理
-    private void handleVoucherOrder(VoucherOrder voucherOrder) {
+    private void handleVoucherOrder(VoucherOrder voucherOrder) throws InterruptedException {
         Long userId = voucherOrder.getUserId();
         RLock lockService = redissonClientConfig.redissonClient().getLock("lock:order:" + userId);
         boolean isLock = lockService.tryLock();
