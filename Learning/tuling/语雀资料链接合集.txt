@@ -1,0 +1,39 @@
+https://www.yuque.com/tulingzhouyu/sfx8p0/wv63hbwtc537a3q6?singleDoc# 《SpringBoot可以同时处理多少请求？》 密码：dpgz
+
+https://www.yuque.com/tulingzhouyu/sfx8p0/bncsuqfk2vas82x7?singleDoc# 《高频Redis面试题:如何保证Redis和数据库数据一致性》
+
+亿级数据过滤算法，你值得拥有！        
+笔记：https://www.yuque.com/tulingzhouyu/sfx8p0/drssplf8phns9oen?singleDoc# 密码：rlce       
+
+https://www.yuque.com/renyong-jmovm/dadudu/ui26gan6yg49w2gm?singleDoc# 《自定义注解结合Hutool对SpringBoot接口返回数据进行脱敏》 密码：qsef
+
+https://www.yuque.com/tulingzhouyu/sfx8p0/aybxoolre5uu0pao?singleDoc# 《OpenFeign遇上统一异常》 密码：qzr2
+
+https://www.yuque.com/tulingzhouyu/sfx8p0/hnopfrtvei9aze6t?singleDoc# 《优化SpringBoot程序启动速度》 密码：ddq9
+
+https://www.yuque.com/tulingzhouyu/sfx8p0/tzan0am5geng91bz?singleDoc# 《MySQL索引篇笔记合集》 密码：ayxg
+
+
+分布式锁代码资料
+链接：https://pan.baidu.com/s/16hkjAGe810YYB49A8hIaLg?pwd=emyz 
+提取码：emyz 
+
+
+https://www.yuque.com/tulingzhouyu/sfx8p0/qnxql079alg2ghhz?singleDoc# 《徐庶—MySQL调优实践最全!必懂!知识点一站式掌握》 密码：nfyq
+
+https://www.yuque.com/tulingzhouyu/sfx8p0/xnfpdls4kqe10plr?singleDoc# 《List操作的一些常见问题》 密码：nh30
+
+https://www.yuque.com/tulingzhouyu/sfx8p0/iz44sqyzvez9i5c0?singleDoc# 《提高生产力：这10个Lambda表达式必须掌握》 密码：kubp
+
+https://www.yuque.com/tulingzhouyu/sfx8p0/sve0fqmb4uay28i6?singleDoc# 《SpringBoot读配置的6种方式》 密码：lrt9
+
+
+彻底搞懂代理（代理模式、静态代理、jdk、cglib动态代理）        
+笔记代码：
+图：        https://www.processon.com/view/link/64be89f0444a53022c4d1511 访问密码：3t2S
+代码：https://gitee.com/xscodeit/tuling_proxy.git
+笔记：https://www.yuque.com/tulingzhouyu/sfx8p0/lcxp7ep4fuv7bblw
+
+
+3个命令， 教你定位线上CPU飙高
+https://www.yuque.com/tulingzhouyu/sfx8p0/zwpg2lgdszlwalhg?singleDoc# 《JUC面试题大全》 密码：nfey
