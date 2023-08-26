@@ -1,8 +1,8 @@
 package src.Test.patterns.AbstractFactory;
 
-import src.patterns.AbstactResourceFactory.AbstractResourceFactory;
-import src.patterns.AbstactResourceFactory.impl.FtpResource;
-import src.patterns.AbstactResourceLoaderFactory.impl.FtpResourceLoader;
+import src.patterns.Factory.AbstactResourceFactory.AbstractResourceFactory;
+import src.patterns.Factory.AbstactResourceFactory.impl.FtpResource;
+import src.patterns.Factory.AbstactResourceLoaderFactory.impl.FtpResourceLoader;
 
 /**
  * @Author Kkuil
