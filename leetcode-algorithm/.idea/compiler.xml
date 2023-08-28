@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Day01" />
         <module name="Day02" />
+        <module name="Day03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />
