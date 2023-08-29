@@ -1,4 +1,4 @@
-package src;
+package src.pratise;
 
 public class yieldAndPriority {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src;
+package src.pratise;
 
 public class TwoPhaseTerminationTest {
     public static void main(String[] args) throws InterruptedException {

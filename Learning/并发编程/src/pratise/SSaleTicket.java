@@ -1,4 +1,4 @@
-package src;
+package src.pratise;
 
 class Ticket {
     private int number = 30;

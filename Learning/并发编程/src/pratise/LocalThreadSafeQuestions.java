@@ -1,4 +1,4 @@
-package src;
+package src.pratise;
 
 import java.util.ArrayList;
 
